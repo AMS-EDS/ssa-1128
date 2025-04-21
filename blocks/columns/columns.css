@@ -15,12 +15,12 @@
 
     h2 {
       font-size: var(--heading-font-size-xl);
-      font-weight: 700;
+      font-weight: 900;
     }
 
     h3 {
       font-size: var(--heading-font-size-m);
-      font-weight: 700;
+      font-weight: 900;
 
       @media (width <= 600px) {
         font-size: var(--heading-font-size-s);
