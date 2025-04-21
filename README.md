@@ -1,7 +1,5 @@
 # ams-roadmap
 
-Initial AMS EDS test 2
-=======
 Initial AMS EDS test:
 
 * Does the new bot trigger a sync?
