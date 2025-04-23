@@ -22,7 +22,7 @@
       font-size: var(--heading-font-size-m);
       font-weight: 500;
 
-      @media (width <= 700px) {
+      @media (width <= 800px) {
         font-size: var(--heading-font-size-s);
       }
     }
@@ -32,7 +32,7 @@
       font-size: var(--body-font-size-m);
       line-height: 1.4em;
 
-      @media (width <= 700px) {
+      @media (width <= 800px) {
         font-size: var(--body-font-size-s);
       }
     }
