@@ -1,36 +1,38 @@
 .columns {
   margin: 40px 0 100px;
 
-  > div { /* row */
+  > div {
+    /* row */
     display: flex;
     align-items: center;
     gap: 40px;
   }
 
-  > div > div { /* column */
+  > div > div {
+    /* column */
     flex: 1;
     margin: 20px 0;
 
     h2 {
       font-size: var(--heading-font-size-xl);
-      font-weight: 600;
+      font-weight: 700;
     }
 
     h3 {
       font-size: var(--heading-font-size-m);
       font-weight: 600;
 
-      @media (width <= 600px) {
+      @media (width <= 800px) {
         font-size: var(--heading-font-size-s);
       }
     }
 
     p {
-      font-weight: 300;
+      font-weight: 600;
       font-size: var(--body-font-size-m);
       line-height: 1.4em;
 
-      @media (width <= 600px) {
+      @media (width <= 800px) {
         font-size: var(--body-font-size-s);
       }
     }
@@ -49,8 +51,12 @@
       }
     }
 
-    &.left { text-align: right }
-    &.right { text-align: left  }
+    &.left {
+      text-align: right;
+    }
+    &.right {
+      text-align: left;
+    }
 
     &.img-col {
       img {
@@ -71,7 +77,6 @@
         @media (width <= 900px) {
           width: 100%;
         }
-
 
         &:hover {
           scale: 1.4;
